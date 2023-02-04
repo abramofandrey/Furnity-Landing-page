@@ -1,0 +1,213 @@
+/* dropdown style = = = = =  */
+
+.dropdown {
+    position: absolute;
+    width: 350px;
+    height: 702px;
+    padding: 20px;
+    top: -38px;
+    right: -218px;
+    z-index: 10;
+    background: #ffffff;
+    box-shadow: -30px 15px 50px rgba(0, 0, 0, 0.15);
+    transition: all 0.7s;
+}
+
+.social__icon-dropdown-basket {
+    position: relative;
+}
+
+.dropdown__hidden {
+    display: none;
+}
+
+.header__dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdowm__title,
+.shopping-cart__name,
+.total-payment {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1d1f23;
+}
+
+.shopping-cart__subname {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #8d8d8d;
+}
+
+.shopping-cart__price,
+.total-payment__value {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1d1f23;
+}
+
+.dropdown__line {
+    border: 1px solid rgba(57, 59, 63, 0.31);
+}
+
+.shopping-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.shopping-cart:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.shopping-cart:last-child {
+    margin-bottom: 20px;
+}
+
+.shopping-cart__products {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shopping-cart__discription {
+    display: flex;
+    flex-direction: column;
+}
+
+.total-payment__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.total-payment__btn {
+    width: 300px;
+    height: 64px;
+    background: #f6973f;
+    border-radius: 10px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+.total-payment__btn:hover {
+    cursor: pointer;
+    background: #fa9536;
+    color: #1d1f23;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.dropdown__btn-close-basket,
+.dropdown__btn-close-search {
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 24px;
+    height: 24px;
+    opacity: 0.2;
+    cursor: pointer;
+    transition: opacity ease 0.5s;
+}
+
+.dropdown__btn-close-basket:hover,
+.dropdown__btn-close-search:hover {
+    opacity: 1;
+}
+
+.dropdown__btn-close-basket::before,
+.dropdown__btn-close-search::before,
+.dropdown__btn-close-basket::after,
+.dropdown__btn-close-search::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: #000;
+}
+
+.dropdown__btn-close-basket::before,
+.dropdown__btn-close-search::before {
+    transform: rotate(45deg);
+}
+
+.dropdown__btn-close-basket::after,
+.dropdown__btn-close-search::after {
+    transform: rotate(-45deg);
+}
+
+/* dropdown-search = = = =  = = = = = = = = = = = = =  */
+
+.dropdown-search {
+    width: 1440px;
+    height: 250px;
+    background: #d6dee2;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    padding: 50px 100px;
+}
+
+.dropdown-search__hidden {
+    display: none;
+}
+
+.social__icon-dropdown-search {
+    position: relative;
+}
+
+.dropdown-search {
+    position: absolute;
+    top: -38px;
+    left: -1140px;
+}
+
+.dropdown-search__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown-search__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.dropdown-search__input {
+    width: 1210px;
+    height: 53px;
+    margin-top: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.dropdown-search__input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 52px;
+    color: #f6973f;
+}

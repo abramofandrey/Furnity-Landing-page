@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700&family=Poppins:wght@400;700&family=Prosto+One&family=Roboto:wght@300;400;500;700;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="normalize/normalize.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/products-slider.css">
+        <link rel="stylesheet" href="css/dropdown__style.css">
+        <title>Furnity</title>
+    </head>
+
+
+    <body>
+        <div class="header" data-aos="fade-right">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header__logo">
+                        <img src="img/header-logo.svg" alt="Logo Futnity" class="logo">
+                        <span class="logo__title">Furnity.</span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__item-link menu__item-link--active">Badroom</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__item-link">Living Room</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__item-link">Dining Room</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__item-link">Office</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__item-link">Kitchen</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__item-link">Sofa</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-social__icon">
+                        <div class="social__icon-dropdown-search">
+                            <img class="social__icon" id="dropdownOpenBSearch" src="img/search-icon.svg"
+                                alt="icon search">
+                            <div class="dropdown-search dropdown-search__hidden">
+                                <div class="dropdown-search__header">
+                                    <h2 class="dropdown-search__title">Write something here</h2>
+                                    <button class="dropdown__btn-close-search"></button>
+                                </div>
+                                <input class="dropdown-search__input" type="text" name="" id="" placeholder="Search">
+                            </div>
+                        </div>
+
+                        <div class="social__icon-dropdown-basket">
+                            <img class="social__icon" id="dropdownOpenBasket" src="img/basket-icon.svg"
+                                alt="icon basket">
+                            <div class="dropdown dropdown__hidden">
+                                <header class="header__dropdown">
+                                    <h3 class="dropdowm__title">Your Cart</h3>
+                                    <button class="dropdown__btn-close-basket"></button>
+                                </header>
+                                <hr class="dropdown__line">
+                                <div class="shopping-cart__inner">
+                                    <div class="shopping-cart">
+                                        <div class="shopping-cart__products">
+                                            <img class="shopping-cart__icon"
+                                                src="img/dropdown__bag-icon/Baltsar-Chair.png" alt="">
+                                            <div class="shopping-cart__discription">
+                                                <span class="shopping-cart__name">Baltsar Chair</span>
+                                                <span class="shopping-cart__subname">Chair</span>
+                                            </div>
+                                        </div>
+                                        <span class="shopping-cart__price">$299</span>
+                                    </div>
+                                    <div class="shopping-cart">
+                                        <div class="shopping-cart__products">
+                                            <img class="shopping-cart__icon"
+                                                src="img/dropdown__bag-icon/Nyantuy- Chair.png" alt="">
+                                            <div class="shopping-cart__discription">
+                                                <span class="shopping-cart__name">Nyantuy Chair</span>
+                                                <span class="shopping-cart__subname">Chair</span>
+                                            </div>
+                                        </div>
+                                        <span class="shopping-cart__price">$299</span>
+                                    </div>
+                                    <div class="shopping-cart">
+                                        <div class="shopping-cart__products">
+                                            <img class="shopping-cart__icon"
+                                                src="img/dropdown__bag-icon/BaltsarChair.png" alt="">
+                                            <div class="shopping-cart__discription">
+                                                <span class="shopping-cart__name">Baltsar Chair</span>
+                                                <span class="shopping-cart__subname">Chair</span>
+                                            </div>
+                                        </div>
+                                        <span class="shopping-cart__price">$299</span>
+                                    </div>
+                                    <div class="shopping-cart">
+                                        <div class="shopping-cart__products">
+                                            <img class="shopping-cart__icon"
+                                                src="img/dropdown__bag-icon/Anjay-Chair.png" alt="">
+                                            <div class="shopping-cart__discription">
+                                                <span class="shopping-cart__name">Anjay Chair</span>
+                                                <span class="shopping-cart__subname">Chair</span>
+                                            </div>
+                                        </div>
+                                        <span class="shopping-cart__price">$299</span>
+                                    </div>
+                                </div>
+                                <hr class="dropdown__line">
+                                <footer class="footer__dropdown">
+                                    <div class="total-payment__inner">
+                                        <span class="total-payment">Total Payment</span>
+                                        <span class="total-payment__value">$1243</span>
+                                    </div>
+                                    <button class="total-payment__btn">Pay Now</button>
+                                </footer>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main">
+            <div class="container">
+                <h1 class="visibility-hidden">Furnity</h1>
+                <h2 class="main__title" data-aos="fade-left">Offer products to make your<br> interior <span
+                        class="title-decoration">Minimalist.</span></h2>
+                <p class="main__subtitle" data-aos="fade-up-right">we have helped more than 1000+ people to give<br>
+                    perfect comfort to the
+                    interior of their home</p>
+                <a href="" class="main__link" fade-up-left>Find Produk</a>
+            </div>
+        </main>
+
+        <section class="products">
+            <div class="container">
+                <div class="products-wrapper">
+                    <div class="products__slider-container">
+                        <div class="products__slider-track">
+                            <div class="products__slider-item" data-aos="fade-right">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/1.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__slider-item" data-aos="zoom-in">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/2.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__slider-item" data-aos="zoom-in">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/3.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__slider-item" data-aos="fade-left">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/4.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__slider-item">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/5.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__slider-item">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/6.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__slider-item">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/7.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="products__slider-item">
+                                <div class="products-card">
+                                    <img class="card__img" src="img/product/8.png" alt="foto chair">
+                                    <div class="products-card__content">
+                                        <span class="card__discription">Chair</span>
+                                        <p class="card__name">Sakarias Armchair</p>
+                                        <div class="card-price">
+                                            <div class="price__inner">
+                                                <span class="price__currency">$</span>
+                                                <span class="price__value">392</span>
+                                            </div>
+                                            <button class="card-price__btn-add"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products__slider-buttons">
+                        <button class="products__btn-prev" data-aos="fade-right">
+                            <img class="slider-btn__icon" src="img/arrow/arrow-left.svg" alt="">
+                        </button>
+                        <button class="products__btn-next" data-aos="fade-left">
+                            <img class="slider-btn__icon" src="img/arrow/arrow-right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__wrapper">
+                    <div class="benefits__content">
+                        <div class="benefits__content-inner">
+                            <div class="benefits__list">
+                                <div class="benefits__item" data-aos="zoom-in">
+                                    <img class="benefits__icon" src="img/benefits/benefits__icon/bx-package 1.svg"
+                                        alt="">
+                                    <h2 class="benefits__title">Fast and safe<br> delivery</h2>
+                                    <p class="benefits__subtitle">please login and buy our<br> products, safe
+                                        delivery<br> guaranteed</p>
+                                </div>
+                                <div class="content-inner__item" data-aos="zoom-in-up">
+                                    <img class="benefits__icon" src="img/benefits/benefits__icon/bx-loader-circle 1.svg"
+                                        alt="">
+                                    <h2 class="benefits__title">Quick and easy<br> returns</h2>
+                                    <p class="benefits__subtitle">Items that do not match we<br> are ready to replace,
+                                        please<br> return</p>
+                                </div>
+                                <div class="content-inner__item" data-aos="zoom-in-down">
+                                    <img class="benefits__icon" src="img/benefits/benefits__icon/bx-user-pin 1.svg"
+                                        alt="">
+                                    <h2 class="benefits__title">24 hour customer<br> service</h2>
+                                    <p class="benefits__subtitle">Our customer service is ready<br> to serve you at any
+                                        time, don't<br> hesitate to contact us</p>
+                                </div>
+                                <div class="content-inner__item" data-aos="zoom-in-left">
+                                    <img class="benefits__icon" src="img/benefits/benefits__icon/bx-target-lock 1.svg"
+                                        alt="">
+                                    <h2 class="benefits__title">the price match is<br> very fitting</h2>
+                                    <p class="benefits__subtitle">The price of the products we<br> offer is very in
+                                        accordance<br> with the quality of the goods</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="benefits__btn" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Start
+                            Shopping</button>
+                    </div>
+                    <div class="benefits-img__wrapper" data-aos="zoom-out-up">
+                        <img class="benefits__img" src="img/benefits/benefits-image.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="collections">
+            <div class="container">
+                <h1 class="collections__title" data-aos="fade-right">Various collections of furniture<br> to fill your
+                    interior</h1>
+                <p class="collection__subtitle" data-aos="fade-left">We provide a variety of goods with the best quality
+                    for you to find
+                    the<br> right one to meet your interior needs</p>
+                <nav class="colection__navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item" data-aos="flip-up">
+                            <a class="navigation__link" href="#">Badroom</a>
+                        </li>
+                        <li class="navigation__item" data-aos="flip-up">
+                            <a class="navigation__link" href="#">Living Room</a>
+                        </li>
+                        <li class="navigation__item" data-aos="flip-up">
+                            <a class="navigation__link" href="#">Dining Room</a>
+                        </li>
+                        <li class="navigation__item" data-aos="flip-up">
+                            <a class="navigation__link" href="#">Office</a>
+                        </li>
+                        <li class="navigation__item" data-aos="flip-up">
+                            <a class="navigation__link" href="#">Kitchen</a>
+                        </li>
+                        <li class="navigation__item" data-aos="flip-up">
+                            <a class="navigation__link" href="#">Sofa</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="collection__cards-grid">
+                    <div class="collection-card" data-aos="zoom-out-right">
+                        <img class="card__img" src="img/product/1.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-card" data-aos="flip-left">
+                        <img class="card__img" src="img/product/2.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-card" data-aos="flip-right">
+                        <img class="card__img" src="img/product/3.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-card" data-aos="zoom-out-left">
+                        <img class="card__img" src="img/product/4.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-card" data-aos="zoom-out-right">
+                        <img class="card__img" src="img/product/5.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-card" data-aos="flip-left">
+                        <img class="card__img" src="img/product/6.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-card" data-aos="flip-right">
+                        <img class="card__img" src="img/product/7.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection-card" data-aos="zoom-out-left">
+                        <img class="card__img" src="img/product/8.png" alt="foto chair">
+                        <div class="collection-card__content">
+                            <span class="card__discription">Chair</span>
+                            <p class="card__name">Sakarias Armchair</p>
+                            <div class="card-price">
+                                <div class="price__inner">
+                                    <span class="price__currency">$</span>
+                                    <span class="price__value">392</span>
+                                </div>
+                                <button class="card-price__btn-add"></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__wrapper">
+                    <div class="reviews-inner">
+                        <div class="reviews-wrapper">
+                            <h2 class="reviews__title" data-aos="zoom-in-right">What are they saying ?</h2>
+                            <div class="reviews__slider-container" data-aos="zoom-in-right">
+                                <div class="reviews__slider-track">
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                    <div class="reviews__slider-item">
+                                        <div class="header__user-info">
+                                            <img class="user__icon" src="img/reviews__wrapper/reviews-user__icon.jpg"
+                                                alt="">
+                                            <div class="user-info__inner">
+                                                <span class="user-name">Jane Lowis</span>
+                                                <span class="user-last-name">Housewife</span>
+                                            </div>
+                                        </div>
+                                        <p class="user-info__reviews-text">the services and products offered are
+                                            very good,<br> matched what I was looking for. now my room is<br> more
+                                            beautiful and aesthetic.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="reviews__slider-buttons" data-aos="zoom-in-right">
+                                <button class="reviews__btn-prev"></button>
+                                <button class="reviews__btn-next"></button>
+                            </div>
+                        </div>
+
+
+                        <div class="reviews-img__container" data-aos="zoom-in-left">
+                            <img class="reviews__img" src="img/reviews__wrapper/unsplash.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <h2 class="contact__title" data-aos="zoom-in-down">Contact us if you need anything,<br> we are ready
+                        to serve you</h2>
+                    <a class="contact__link" href="№" data-aos="zoom-in-left">Contact us</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer__logo">
+                        <img class="logo" src="img/header-logo.svg" alt="Logo Futnity">
+                        <span class="logo__title footer-logo__title">Furnity.</span>
+                    </div>
+                    <nav class="footer__nav">
+                        <ul class="menu__list">
+                            <div class="menu__item">
+                                <a href="" class="menu__link menu-footer__link">Support</a>
+                            </div>
+                            <div class="menu__item">
+                                <a href="" class="menu__link menu-footer__link">Privacy Policy</a>
+                            </div>
+                            <div class="menu__item">
+                                <a href="" class="menu__link menu-footer__link">Terms and Conditions</a>
+                            </div>
+                        </ul>
+                    </nav>
+                    <span class="footer-copyryght">© 2020 Furnity, All Rights Reserved</span>
+                </div>
+            </div>
+        </footer>
+        <br>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="script/main.js"></script>
+        <script src="script/products-cards__slider.js"></script>
+        <script src="script/dropdown__script.js"></script>
+    </body>
+
+</html>
